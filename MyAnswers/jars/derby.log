@@ -1,0 +1,17 @@
+Tue May 05 11:14:49 EDT 2020 : Apache Derby Network Server - 10.12.1.1 - (1704137) started and ready to accept connections on port 1527
+Tue May 05 11:14:52 EDT 2020 : Log Connections turned on.
+Tue May 05 11:14:52 EDT 2020 : Connection number: 2.
+----------------------------------------------------------------
+Tue May 05 11:14:52 EDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0171-e567-6045-000042d306e8 
+on database directory memory:/Volumes/GoogleDrive/My Drive/Shared Training Docs/Training Portfolio/Course Development/Courses/Development/APDevFundamentals/V4 APDevFundamentals4 (4.3) CURRENT/MU/V4.9 MU - Fundamentals (4.3) CURRENT/studentFiles/MUFundamentals4.3_studentFiles_02may2020/jars/training with class loader org.springframework.boot.loader.LaunchedURLClassLoader@27716f4 
+Loaded from jar:file:/Volumes/GoogleDrive/My%20Drive/Shared%20Training%20Docs/Training%20Portfolio/Course%20Development/Courses/Development/APDevFundamentals/V4%20APDevFundamentals4%20(4.3)%20CURRENT/MU/V4.9%20MU%20-%20Fundamentals%20(4.3)%20CURRENT/studentFiles/MUFundamentals4.3_studentFiles_02may2020/jars/mulesoft-training-services-1.8.1.jar!/lib/derby-10.12.1.1.jar!/
+java.vendor=AdoptOpenJDK
+java.runtime.version=1.8.0_222-b10
+user.dir=/Volumes/GoogleDrive/My Drive/Shared Training Docs/Training Portfolio/Course Development/Courses/Development/APDevFundamentals/V4 APDevFundamentals4 (4.3) CURRENT/MU/V4.9 MU - Fundamentals (4.3) CURRENT/studentFiles/MUFundamentals4.3_studentFiles_02may2020/jars
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+Tue May 05 11:14:53 EDT 2020 Thread[DRDAConnThread_2,5,derby.daemons] (DATABASE = memory:training), (DRDAID = {2}), Apache Derby Network Server connected to database memory:training;create=true

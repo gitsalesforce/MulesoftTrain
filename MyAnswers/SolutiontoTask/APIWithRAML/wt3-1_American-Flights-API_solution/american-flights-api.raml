@@ -1,0 +1,17 @@
+#%RAML 1.0
+title: American Flights API
+
+/flights:
+  get:
+    queryParameters:
+      destination:
+        required: false
+        enum:
+          - SFO
+          - LAX
+          - CLE
+  post:
+  
+  /{ID}:
+    get:
+      

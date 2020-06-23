@@ -1,0 +1,6 @@
+{
+  "main": "american-flights-api.raml",
+  "name": "American Flights API",
+  "classifier": "raml",
+  "tags": []
+}
