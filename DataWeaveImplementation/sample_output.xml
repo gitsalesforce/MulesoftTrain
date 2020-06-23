@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flights>
+  <flight flightCode="rree1093">
+    <airline>American</airline>
+    <departureDate>2016-Feb-11</departureDate>
+    <emptySeats>1</emptySeats>
+    <fromAirportCode>MUA</fromAirportCode>
+    <planeType>Boeing 737</planeType>
+    <price>142.0</price>
+    <toAirportCode>SFO</toAirportCode>
+    <transactions>
+      <transaction transID="181948806" amount="6108.0">
+        <idCustomer>4451</idCustomer>
+        <nameCustomer>Kree Krill</nameCustomer>
+        <accountType>business</accountType>
+        <amountUSFormatted>6,108.00</amountUSFormatted>
+      </transaction>
+      <transaction transID="181948733" amount="5838.0">
+        <idCustomer>4454</idCustomer>
+        <nameCustomer>Ronald Mcdee</nameCustomer>
+        <accountType>personal</accountType>
+        <amountUSFormatted>5,838.00</amountUSFormatted>
+      </transaction>
+      <transaction transID="181948576" amount="6343.0">
+        <idCustomer>4494</idCustomer>
+        <nameCustomer>Scenic Donkey Rides</nameCustomer>
+        <accountType>business</accountType>
+        <amountEUFormatted>6.343,00</amountEUFormatted>
+      </transaction>
+      <transaction transID="181948490" amount="8128.0">
+        <idCustomer>4500</idCustomer>
+        <nameCustomer>Sreekamalesh</nameCustomer>
+        <accountType>business</accountType>
+        <amountEUFormatted>8.128,00</amountEUFormatted>
+      </transaction>
+  </flight>
+</flights>
