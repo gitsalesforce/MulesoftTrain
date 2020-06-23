@@ -1,0 +1,34 @@
+#%RAML 1.0
+title: Transfer Accounts API
+
+types:
+  Message: !include datatypes/message.raml
+
+/transferAccounts:
+  description: API that transfer accounts data with related transactions to a predetermined list of Finance directors. The API will return a success message with a count of how my records were sent.
+  get:
+    headers:
+      Requester-ID:
+        description: id of the requester requesting to transfer these accounts
+        required: true
+    queryParameters:
+      type:
+        enum: [personal, business]
+        required: true
+      name:
+        required: false
+      country:
+        required: false
+    responses:
+      400:
+        body:
+          application/json:
+            example: 
+              message: Invalid request. Please check the required header and query parameters
+            
+      200:
+        body:
+          application/json:
+            type: Message
+            examples: 
+              output: !include examples/messageExample.raml
